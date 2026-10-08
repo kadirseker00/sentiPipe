@@ -1,0 +1,21 @@
+# Package inventory for the exploratory notebooks; not a historical version lock.
+jupyterlab
+numpy
+pandas
+pyarrow
+datasets
+scikit-learn
+requests
+python-dotenv
+google-genai
+pydantic
+tqdm
+transformers
+torch
+sentencepiece
+sacremoses
+sentence-transformers
+accelerate
+matplotlib
+seaborn
+vaderSentiment

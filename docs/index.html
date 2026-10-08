@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multilingual sentiment analysis research | Abdulkadir Şeker</title>
+  <meta name="description" content="Research on language identification, translation, sentiment classification and topic modelling in multilingual reviews. Read the study, explore its questions and find citation information.">
+  <link rel="canonical" href="https://kadirseker00.github.io/sentiPipe/">
+  <meta property="og:url" content="https://kadirseker00.github.io/sentiPipe/">
+  <meta name="author" content="Abdulkadir Şeker">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Multilingual sentiment analysis: a research companion">
+  <meta property="og:description" content="Explore language identification, translation, sentiment classification and topic modelling, with links to the published study and source datasets.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "https://kadirseker00.github.io/sentiPipe/",
+    "name": "Multilingual sentiment analysis: a research companion",
+    "description": "An author research overview of component-level evaluation in multilingual sentiment analysis.",
+    "inLanguage": "en",
+    "author": {"@type": "Person", "name": "Abdulkadir Şeker", "sameAs": "https://orcid.org/0000-0002-4552-2676"},
+    "about": {
+      "@type": "ScholarlyArticle",
+      "name": "From Language Identification to Topic Modelling: A Fully Integrated Pipeline for Multilingual Aspect-Based Sentiment Analysis and Component-Level Insights",
+      "identifier": "https://doi.org/10.1111/exsy.70300",
+      "url": "https://doi.org/10.1111/exsy.70300",
+      "datePublished": "2026-05-22",
+      "author": {"@type": "Person", "name": "Abdulkadir Şeker", "sameAs": "https://orcid.org/0000-0002-4552-2676"},
+      "isPartOf": {"@type": "Periodical", "name": "Expert Systems"}
+    }
+  }
+  </script>
+  <style>
+    :root{color-scheme:light;--ink:#182f38;--muted:#50636b;--paper:#f5f4ef;--line:#d6deda;--accent:#16664e;--wash:#e5eee8}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:var(--accent);text-underline-offset:4px}a:hover{text-decoration-thickness:2px}a:focus-visible{outline:3px solid #b96524;outline-offset:5px;border-radius:2px}
+    .wrap{max-width:1100px;margin:auto;padding:0 32px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:26px;padding-bottom:26px;border-bottom:1px solid var(--line)}.topbar a{font-size:14px;font-weight:600;text-decoration:none}.nav{display:flex;gap:24px;flex-wrap:wrap}.identity{letter-spacing:.02em}
+    .hero{padding:76px 0 48px;max-width:900px}.eyebrow{font-size:12px;font-weight:750;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(42px,6.3vw,72px);line-height:1.1;font-weight:400;letter-spacing:-.035em;margin:20px 0 24px}h2{font-family:Georgia,"Times New Roman",serif;font-size:35px;font-weight:400;line-height:1.2;margin:0 0 22px}h3{font-size:20px;line-height:1.4;margin:0 0 14px}p{margin:0 0 18px}.lead{font-size:20px;max-width:760px;color:var(--muted)}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.button{display:inline-block;padding:11px 20px;border:1px solid var(--accent);border-radius:6px;font-size:15px;font-weight:650;text-decoration:none}.button.primary{background:var(--accent);color:white}.button.secondary{background:transparent}
+    .pipeline{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;padding:1px;margin:0 0 64px;background:var(--line);border-radius:8px;overflow:hidden}.pipeline li{background:#fff;padding:22px 20px}.pipeline .number{color:var(--accent);font-size:12px;font-weight:750;letter-spacing:.08em}.pipeline strong{display:block;font-size:15px;margin-top:8px}.pipeline small{display:block;color:var(--muted);font-size:13px;margin-top:6px}
+    section{scroll-margin-top:24px}.section{padding:48px 0;border-top:1px solid var(--line)}.intro{max-width:750px;color:var(--muted)}.questions{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:30px}.card{background:white;padding:28px;border:1px solid var(--line);border-radius:8px}.card p{font-size:15px;color:var(--muted)}.card .source{font-size:13px;margin-bottom:0}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:42px}.resource-list{padding-left:20px;margin:0}.resource-list li{margin-bottom:14px}.note{background:var(--wash);border-left:3px solid var(--accent);padding:18px 22px;color:var(--muted);font-size:15px;margin-top:24px}.citation{background:white;border:1px solid var(--line);border-radius:8px;padding:28px;font-size:16px;overflow-wrap:anywhere}.paper-title{font-style:italic}.fine{font-size:13px;color:var(--muted)}footer{padding:32px 0 42px;border-top:1px solid var(--line);margin-top:10px}.footer-row{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}.footer-row p{margin:0}
+    @media(max-width:850px){.questions{grid-template-columns:1fr}.pipeline{grid-template-columns:repeat(2,1fr)}.two-col{grid-template-columns:1fr;gap:28px}.hero{padding-top:52px}.card{padding:24px}}
+    @media(max-width:520px){.wrap{padding:0 20px}.topbar{align-items:flex-start;flex-direction:column;gap:12px}.nav{gap:18px}.hero{padding-top:40px}.lead{font-size:18px}.pipeline{margin-bottom:42px}.pipeline li{padding:18px 14px}.section{padding:34px 0}h2{font-size:29px}.citation{padding:22px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header class="wrap topbar">
+    <a class="identity" href="https://orcid.org/0000-0002-4552-2676">Abdulkadir Şeker</a>
+    <nav class="nav" aria-label="Main navigation"><a href="#questions">Research questions</a><a href="#resources">Resources</a><a href="#cite">Citation</a></nav>
+  </header>
+  <main class="wrap">
+    <div class="hero">
+      <div class="eyebrow">Expert Systems · 2026 · Research companion</div>
+      <h1>Understanding multilingual sentiment, one component at a time.</h1>
+      <p class="lead">A study of language identification, translation, sentiment classification and topic modelling in multilingual user reviews, evaluated using M-ABSA and MARC.</p>
+      <div class="actions"><a class="button primary" href="https://doi.org/10.1111/exsy.70300">Read the open-access paper ↗</a><a class="button secondary" href="https://github.com/kadirseker00/sentiPipe">Explore the code ↗</a><a class="button secondary" href="#cite">Cite this research</a></div>
+    </div>
+    <ol class="pipeline" aria-label="Four components evaluated in the paper">
+      <li><span class="number">COMPONENT 01</span><strong>Language identification</strong><small>Identify the language of a review.</small></li>
+      <li><span class="number">COMPONENT 02</span><strong>Machine translation</strong><small>Evaluate translation into English.</small></li>
+      <li><span class="number">COMPONENT 03</span><strong>Sentiment classification</strong><small>Compare sentiment predictions.</small></li>
+      <li><span class="number">COMPONENT 04</span><strong>Topic modelling</strong><small>Explore themes in review text.</small></li>
+    </ol>
+    <section id="questions" class="section" aria-labelledby="questions-title">
+      <h2 id="questions-title">Questions this study investigates</h2>
+      <p class="intro">The paper compares individual components within a shared evaluation framework. These questions connect its experiments to the decisions involved in building a multilingual analysis system.</p>
+      <div class="questions">
+        <article class="card"><h3>How does translation affect multilingual sentiment analysis?</h3><p>The study evaluates translation systems alongside sentiment classification, including analysis of original reviews and English translations. Interpret the comparisons within the experiment's sampling and reference-translation design.</p><p class="source"><a href="https://doi.org/10.1111/exsy.70300">Paper: Sections 4.2–4.3 ↗</a></p></article>
+        <article class="card"><h3>How do LLMs compare with traditional language identification models?</h3><p>Language identification is compared on M-ABSA and MARC. Results differ by dataset, and combining model predictions does not always improve on an individual model.</p><p class="source"><a href="https://doi.org/10.1111/exsy.70300">Paper: Section 4.1 ↗</a></p></article>
+        <article class="card"><h3>Where do errors and coverage limitations appear in a multilingual NLP pipeline?</h3><p>The evaluation examines language confusion, noisy reviews, translation differences and sentiment errors. Component-level results reveal different strengths, failure patterns and coverage across the evaluated settings.</p><p class="source"><a href="https://doi.org/10.1111/exsy.70300">Paper: Results and discussion ↗</a></p></article>
+      </div>
+    </section>
+    <section id="resources" class="section two-col" aria-labelledby="resources-title">
+      <div><h2 id="resources-title">Source datasets</h2><ul class="resource-list"><li><a href="https://github.com/swaggy66/M-ABSA">M-ABSA</a> · <a href="https://arxiv.org/abs/2502.11824">Dataset paper</a></li><li><a href="https://www.kaggle.com/datasets/mexwell/amazon-reviews-multi">Multilingual Amazon Reviews Corpus (MARC)</a>, as linked in the article's Data Availability Statement.</li></ul><p class="fine">Credit the dataset creators and follow the source datasets' terms. Dataset coverage and the samples used in individual experiments are different quantities.</p></div>
+      <div><h2>Code and experiments</h2><p>Explore five research notebooks for Gemini-based analysis, machine translation comparisons, sentiment classification and topic modelling in the sentiPipe repository.</p><p><a href="https://github.com/kadirseker00/sentiPipe">Code, setup instructions and notebook guide ↗</a></p><p class="note">These exploratory notebooks require local intermediate datasets and selected experiment cells. Consult the paper for evaluation samples, model configurations and limitations.</p></div>
+    </section>
+    <section id="cite" class="section" aria-labelledby="cite-title">
+      <h2 id="cite-title">Cite the published study</h2>
+      <div class="citation"><p>Şeker, A. (2026). <span class="paper-title">From Language Identification to Topic Modelling: A Fully Integrated Pipeline for Multilingual Aspect-Based Sentiment Analysis and Component-Level Insights.</span> <em>Expert Systems, 43</em>(7), e70300.</p><a href="https://doi.org/10.1111/exsy.70300">https://doi.org/10.1111/exsy.70300</a></div>
+      <p style="margin-top:18px"><a href="https://github.com/kadirseker00/sentiPipe/blob/main/CITATION.bib">Download BibTeX ↗</a> · <a href="https://github.com/kadirseker00/sentiPipe/blob/main/CITATION.cff">Machine-readable citation ↗</a></p>
+      <p class="fine" style="margin-top:18px">Author ORCID: <a href="https://orcid.org/0000-0002-4552-2676">0000-0002-4552-2676</a></p>
+    </section>
+  </main>
+  <footer class="wrap"><div class="footer-row"><p class="fine">Research overview by Abdulkadir Şeker.</p><p class="fine">Empirical statements refer to the linked publication.</p></div></footer>
+</body>
+</html>

@@ -172,3 +172,30 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Local research inputs, model weights and generated experiment outputs
+.DS_Store
+.env.*
+!.env.example
+data/
+datasetTR/
+models/
+outputs/
+results/
+MABSA*/
+MARC*/
+*.csv
+*.tsv
+*.parquet
+*.arrow
+*.jsonl
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.png
+*.jpg
+*.jpeg
+*.pdf
+sample_review.txt

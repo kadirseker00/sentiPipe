@@ -1,0 +1,6 @@
+# Optional topic modelling sections. Install requirements.txt first.
+nltk
+gensim
+bertopic
+hdbscan
+top2vec[sentence_encoders]
